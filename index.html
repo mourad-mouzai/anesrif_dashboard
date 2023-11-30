@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="un site de ANESRIF, Algerie" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,0,0"
+    />
+    <title>Document</title>
+  </head>
+  <body class="bg-white dark:bg-slate-800 flex flex-col">
+    <header class="py-2 px-6 text-white bg-gray-700 flex justify-between">
+      <div class="flex flex-row items-center">
+        <span class="material-symbols-outlined"> call </span>
+        <p class="font-thin text-sm ml-2">0555-55-55-55</p>
+      </div>
+
+      <div class="flex flex-row items-center">
+        <span class="material-symbols-outlined"> mail </span>
+        <p class="font-thin text-sm ml-2">admin@anesrif@dz</p>
+      </div>
+    </header>
+    <section class="flex flex-row w-full h-[calc(100vh-96px)] min-h-[300px]">
+      <aside class="w-[12rem] h-[100%] bg-[#1d3557]">
+        <div class="w-full h-32 flex flex-col justify-center bg-[#457B9D]">
+          <div class="flex justify-center">
+            <img
+              class="rounded-full w-16 h-16 mt-4"
+              src="https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&q=70&fm=webp"
+              alt="profile"
+            />
+          </div>
+          <p class="text-xl font-bold text-center">User Name</p>
+        </div>
+        <div
+          class="text-white flex flex-col justify-between static h-[calc(100%-125px)]"
+        >
+          <div class="flex flex-col items-start pt-4">
+            <div
+              class="flex flex-row items-center pt-1 w-full px-4 hover:bg-[#457B9D] hover:border-l-[#E63946] hover:border-l-2"
+            >
+              <span class="material-symbols-outlined"> dashboard </span>
+              <p class="font-thin text-sm ml-2">Dashboard</p>
+            </div>
+            <div
+              class="flex flex-row items-center pt-1 w-full px-4 hover:bg-[#457B9D] hover:border-l-[#E63946] hover:border-l-2"
+            >
+              <span class="material-symbols-outlined"> inventory_2 </span>
+              <p class="font-thin text-sm ml-2">Produit</p>
+            </div>
+            <div
+              class="flex flex-row items-center pt-1 w-full px-4 hover:bg-[#457B9D] hover:border-l-[#E63946] hover:border-l-2"
+            >
+              <span class="material-symbols-outlined"> local_shipping </span>
+              <p class="font-thin text-sm ml-2">Fournisseur</p>
+            </div>
+            <div
+              class="flex flex-row items-center pt-1 w-full px-4 hover:bg-[#457B9D] hover:border-l-[#E63946] hover:border-l-2"
+            >
+              <span class="material-symbols-outlined"> contacts_product </span>
+              <p class="font-thin text-sm ml-2">Client</p>
+            </div>
+          </div>
+          <div class="relative bottom-4">
+            <div
+              class="flex flex-row items-center pt-1 w-full px-4 hover:bg-[#457B9D] hover:border-l-[#E63946] hover:border-l-2"
+            >
+              <span class="material-symbols-outlined"> logout </span>
+              <p class="font-thin text-sm ml-2">Deconnexion</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="w-full h-[100%] flex flex-col">
+        <nav
+          class="flex flex-col md:flex-row lg:flex-row w-full h-20 bg-white shadow-2xl items-center justify-between"
+        >
+          <p class="collapse md:visible text-2xl font-black text-gray-700 pl-4">
+            ANESRIF
+          </p>
+          <input
+            class="w-full md:w-1/2 lg:w-1/3 border-[1px] border-gray-600 h-8 rounded-md mx-4 px-2"
+            type="text"
+            placeholder="search"
+          />
+        </nav>
+        <main class="h-[calc(100%-80px)] bg-[#efefef] p-4 overflow-y-auto">
+          <section>
+            <div
+              class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+            >
+              <div
+                class="bg-[#457b9d] hover:bg-[#5cadd2] rounded-md h-[8rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <p class="text-gray-200 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p>
+                  <p class="text-gray-200 text-[24px] font-semibold">Clients</p>
+                </div>
+              </div>
+              <div
+                class="bg-[#71c2c2] hover:bg-[#dcf0f1] rounded-md h-[8rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <p class="text-gray-600 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p>
+                  <p class="text-gray-600 text-[24px] font-semibold">Clients</p>
+                </div>
+              </div>
+              <div
+                class="bg-[#A8DADC] hover:bg-[#dcf0f1] rounded-md h-[8rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <p class="text-gray-600 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p>
+                  <p class="text-gray-600 text-[24px] font-semibold">Clients</p>
+                </div>
+              </div>
+              <div
+                class="bg-[#E63946] hover:bg-[#ef5460] rounded-md h-[8rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <p class="text-gray-200 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p>
+                  <p class="text-gray-200 text-[24px] font-semibold">Clients</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="mt-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div
+                class="bg-white col-span-2 min-w-[400px] border-[1px] border-gray-600 rounded-md h-[20rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <form
+                    action=""
+                    class="m-4 grid grid-cols-2 justify-stretch w-full gap-3"
+                  >
+                    <input
+                      type="text"
+                      placeholder="First name"
+                      class="border-[1px] rounded-md border-gray-700 px-2 py-2"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Last name"
+                      class="border-[1px] rounded-md border-gray-700 px-2 py-2"
+                    />
+                    <input
+                      type="email"
+                      placeholder="email"
+                      class="border-[1px] rounded-md border-gray-700 px-2 py-2 col-span-2"
+                    />
+                    <input
+                      type="date"
+                      name=""
+                      id=""
+                      class="border-[1px] rounded-md border-gray-700 px-2 py-2 col-span-2"
+                    />
+                    <input
+                      type="button"
+                      value="Validate"
+                      class="border-[2px] rounded-md border-red-600 px-2 py-2 col-span-2"
+                    />
+                  </form>
+                </div>
+              </div>
+              <div
+                class="bg-white border-[1px] border-gray-600 rounded-md h-[20rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row"></div>
+              </div>
+              <div
+                class="bg-white border-[1px] border-gray-600 rounded-md h-[20rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <!-- <p class="text-gray-200 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p> -->
+                </div>
+              </div>
+              <div
+                class="bg-white col-span-2 border-[1px] border-gray-600 rounded-md h-[20rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <!-- <p class="text-gray-200 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p> -->
+                </div>
+              </div>
+              <div
+                class="bg-white col-span-2 border-[1px] border-gray-600 rounded-md h-[20rem] shadow-lg hover:shadow-md"
+              >
+                <div class="flex justify-start items-end flex-row">
+                  <!-- <p class="text-gray-200 text-[32px] pt-4 pl-4 font-semibold">
+                    25
+                  </p> -->
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </section>
+    <footer class="py-4 text-white bg-gray-500 flex justify-center">
+      Anesrif 2023 - tous droits réservés
+    </footer>
+  </body>
+</html>
